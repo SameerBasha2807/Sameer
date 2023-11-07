@@ -1,0 +1,8 @@
+def Palindrome(S):
+    if (S[::-1]==S):
+        print("Given String is Palindrome")
+    else:
+        print("Given String is Not Palindrome")
+    return S
+S = input("Enter a String: ")
+print(Palindrome(S))
