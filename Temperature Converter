@@ -1,8 +1,8 @@
 def convert(temp,unit):
-    if unit ==  f:
+    if unit == " f":
         n = (temp-32)*5/9
         print('The Fahrenheit temperature in Celsius is ' ,n,'C')
-    elif unit ==   c:
+    elif unit ==   "c" :
         n = (temp*9/5)+32
         print("The Celcius temperature in Fahrenheit is " ,n,"F")
     else :
